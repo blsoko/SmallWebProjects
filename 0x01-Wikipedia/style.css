@@ -1,0 +1,457 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+header p {
+    font-family: Linux Libertine, Georgia, Times, serif;
+    font-size: 0.938rem;
+    font-weight: 400;
+    
+    margin: auto;
+    letter-spacing: 0px;
+}
+
+header h1{
+    font-family: Linux Libertine, Hoefler Text, Georgia, Times New Roman, Times, serif;
+    font-size: 1.6em;
+    font-weight: 500;
+    
+    margin: 0.025rem auto;
+    letter-spacing: 0.025em;
+}
+
+header h1 span{
+    font-size: 1.388em;
+}
+
+main {
+    position: relative;
+}
+
+main .language-container {
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    padding: 50px;
+    
+}
+
+main .lang-first-container {
+    float: left;
+    list-style-type: none;
+    margin-left: 40.5rem;
+    
+}
+
+main .lang-second-container {
+    position: absolute;
+    list-style-type: none;
+    margin-left: 60rem;
+    
+
+}
+
+main .lang-general-container img {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 4.1rem;
+    margin-left: -3%;
+    height: 205px;
+    width: 220px;
+}
+
+main .lang-first-container li{
+    position: relative;
+    
+    padding: 0 auto;
+    display: flex;
+    width: 160px;
+    height: 40px;
+    color: rgb(51, 102, 204);
+    font-size: 0.975rem;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
+}
+
+main .lang-first-container li:nth-child(1){
+    margin: 0rem 0rem 1.3rem 1rem;
+    padding-top: 4px;
+}
+
+main .lang-first-container li:nth-child(2){
+    margin: 0rem 0rem 1.3rem -2.2rem;
+    padding-top: 4px;
+}
+
+main .lang-first-container li:nth-child(3){
+    margin: 0rem 0rem 1.3rem -3rem;
+    padding-top: 4px;
+}
+
+main .lang-first-container li:nth-child(4){
+    margin: 0rem 0rem 1.3rem -2.2rem;
+    padding-top: 1px;
+}
+
+main .lang-first-container li:nth-child(5){
+    margin: 0rem 0rem 1rem 1rem;
+    padding-top: 4px;
+}
+
+
+main .lang-second-container li{
+    position: relative;
+    
+    padding: 0 auto;
+    display: flex;
+    width: 160px;
+    height: 40px;
+    color: rgb(51, 102, 204);
+    font-size: 0.975rem;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
+}
+
+main .lang-second-container li:nth-child(1){
+    margin: 0rem 0rem 1.3rem -1.5rem;
+    padding-top: 4px;
+}
+
+main .lang-second-container li:nth-child(2){
+    margin: 0rem 0rem 1.3rem 1.7rem;
+    padding-top: 4px;
+}
+
+main .lang-second-container li:nth-child(3){
+    margin: 0rem 0rem 1.3rem 2.5rem;
+    padding-top: 4px;
+}
+
+main .lang-second-container li:nth-child(4){
+    margin: 0rem 0rem 1.3rem 1.7rem;
+    padding-top: 4px;
+}
+
+main .lang-second-container li:nth-child(5){
+    margin: 0rem 0rem 1rem -1.5rem;
+    padding-top: 4px;
+}
+
+
+main .lang-first-container li:hover, main .lang-second-container li:hover {
+    background-color: #eaecf0;
+    text-decoration: underline;
+}
+
+main .lang-first-container li:nth-child(4) span p, .lang-second-container li:nth-child(1){
+    margin-top:.1px;
+    font-size: 0.813rem;
+}
+
+
+main .lang-first-container span p, main .lang-second-container span p{
+    margin-top:5px;
+    font-size: 0.813rem;
+    color: rgb(84, 89, 93);
+}
+
+/* Search Bar */
+
+main .main-input-container {
+    display: flex;
+    position: absolute;
+    margin: 22.8rem 0rem 0rem 43.3rem;
+    width: 28.5rem;
+    height: 2.5rem;
+}
+
+main .main-input-container input{
+    width: 28.5rem;
+    height: 2.65rem;
+    border: 1px solid #a2a9b1;
+}
+
+main .main-input-container svg {
+    width: 30px;
+    padding: 0rem 1rem 0rem 1rem;
+    background-color: #36c ;
+}
+
+main .main-input-container .seach-scrollbar {
+    position: absolute;
+    display: flex;
+    margin-left: 21.5rem;
+    margin-top: 0.6rem;
+    padding-left: 0.25rem;
+    align-items: center;
+    font-size: 0.775rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
+    color: #646a70;
+    width: 2.4rem;
+    height: 1.4rem;
+}
+
+main .main-input-container .seach-scrollbar img {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-top: 0.1rem;
+    margin-left: 0.2rem;
+}
+
+main .main-input-container .seach-scrollbar:hover {
+    cursor: pointer;
+    background-color: #eaecee;
+}
+
+main .main-input-container .choose-lang {
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    width: 18rem;
+    height: 1.9rem;
+    margin-left: 4.5rem;
+    margin-top: 5rem;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+main .main-input-container .choose-lang p {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 1rem;
+    color: rgb(51, 102, 204);
+}
+
+main .main-input-container .choose-lang .lang{
+    width: 2rem;
+    margin-left: 1.4rem;
+}
+
+main .main-input-container .choose-lang .arrow-down{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: 1.3rem;
+}
+
+main .main-input-container .choose-lang:hover{
+    background-color: white;
+}
+
+.line-1 {
+    margin-top: 0.5rem;
+    margin-left: -6rem;
+    width: 4.5rem;
+    height: 1px;
+    background: #bfc1c4;
+  }
+
+.line-2 {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 18.6rem;
+    width: 5rem;
+    height: 1px;
+    background: #bfc1c4;
+}
+
+/* app features */
+
+main .apps-features-container {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 25rem;
+    margin-top: 32rem;
+}
+
+main .apps-features-container .donation-appdownload {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: auto;
+    font-size: 13px;
+    margin-left: 1.5rem;
+}
+
+main .apps-features-container .donation-appdownload p{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
+}
+
+main .apps-features-container .donation-appdownload {
+    width: 5rem;
+    height: 5rem;
+}
+
+main .apps-features-container .donation-appdownload .android-ios-app {
+    display: block;
+    position: relative;
+    margin: 0rem 3.5rem 0rem 4rem;
+    padding: auto;
+    line-height: 1rem;
+    background-color: #f8f9fa;
+}
+
+main .apps-features-container .donation-appdownload .android-ios-app p {
+    line-height: 1.2rem;
+    padding-left: 4rem;
+    padding-right: 1.5rem;
+    color: rgb(84, 89, 93);
+}
+
+main .apps-features-container .donation-appdownload .android-ios-app h3 {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
+    color: rgb(51, 102, 204);
+    line-height: 1rem;
+    font-size: 13px;
+    padding-left: 4rem;
+    cursor: pointer;
+}
+
+main .apps-features-container .donation-appdownload .android-ios-app .wikilogo {
+    position: absolute;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+main .apps-features-container .donation-appdownload .android-ios-app .googlelogo {
+    cursor: pointer;
+    padding-left: 3.5rem;
+    width: 4rem;
+    height: 2rem;
+}
+
+main .apps-features-container .donation-appdownload .android-ios-app .applelogo {
+    cursor: pointer;
+    padding-left: 1rem;
+    width: 4rem;
+    height: 2rem;
+}
+
+main .apps-features-container .donation-appdownload .hosted {
+    margin: 3rem 3.5rem 1rem 4rem;
+}
+
+main .apps-features-container .donation-appdownload .hosted img {
+    position: absolute;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+main .apps-features-container .donation-appdownload .hosted p {
+    line-height: 1.2rem;
+    padding-left: 4rem;
+    padding-right: 1rem;
+    color: rgb(84, 89, 93);
+}
+
+main .apps-features-container .donation-appdownload .hosted p span{
+    cursor: pointer;
+    color: rgb(51, 102, 204);
+}
+
+main .apps-features-container .donation-appdownload .hosted p span:hover, main .apps-features-container .donation-appdownload .android-ios-app h3:hover{
+    text-decoration: underline;
+}
+
+
+
+main .apps-features-container .features-wikipedia {
+    width: 74%;
+    height: auto;
+}
+
+main .apps-features-container .features-wikipedia .flex-box-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4rem 0rem 2rem 11rem;
+}
+
+.flex-box-container .flex-box{
+    display: flex;
+    height: 4rem;
+    width: 23rem;
+    
+    margin: 0.3rem;
+}
+
+.flex-box-container .flex-box:hover{
+    background-color: #eaecf0;
+}
+
+.flex-box-container .flex-box p{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: rgb(84, 89, 93);
+}
+
+.flex-box-container .flex-box p span{
+    color: rgb(51, 102, 204);
+}
+
+main .apps-features-container .line-1 {
+    position: absolute;
+    width: 97%;
+    color: #bfc1c4;
+    margin-left: 1.5rem;
+}
+
+main .apps-features-container .line-2{
+    position: absolute;
+    width: 97%;
+    color: #bfc1c4;
+    margin-top: 25rem;
+    margin-left: 1.5rem;
+}
+
+.terms-privacy {
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: rgb(84, 89, 93);
+    flex-direction: row;
+    position: absolute;
+    height: 2rem;
+    width: 50rem;
+    text-align: center;
+    margin-top: 57.5rem;
+    margin-left:30rem;   
+}
+
+.terms-privacy p span {
+    color: rgb(51, 102, 204);
+    cursor: pointer;
+}
+
+.terms-privacy ul li {
+    color: rgb(51, 102, 204);
+    cursor: pointer;
+    display: inline;
+    padding-right: 1rem;
+}
